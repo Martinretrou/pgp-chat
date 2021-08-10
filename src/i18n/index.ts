@@ -1,5 +1,5 @@
-import i18n from 'i18next';
-import {initReactI18next} from 'react-i18next';
+import i18n from 'i18next'
+import { initReactI18next } from 'react-i18next'
 
 // tips: export each translation to a seperate file
 const resources = {
@@ -29,7 +29,7 @@ const resources = {
       home: 'Accueil',
     },
   },
-};
+}
 
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
@@ -43,6 +43,6 @@ i18n
     interpolation: {
       escapeValue: false, // react already safes from xss
     },
-  });
+  })
 
-export default i18n;
+export default i18n

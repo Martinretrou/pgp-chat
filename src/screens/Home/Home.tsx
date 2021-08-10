@@ -1,15 +1,14 @@
-import React, {memo, useEffect, useState} from 'react';
-import {useTranslation} from 'react-i18next';
-import {Button, StyleSheet, Text, View} from 'react-native';
-import Colors from 'src/constants/colors';
-
-import OpenPGP from 'react-native-fast-openpgp';
+import React, { memo, useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import { Button, StyleSheet, Text, View } from 'react-native'
+import OpenPGP from 'react-native-fast-openpgp'
+import Colors from 'src/constants/colors'
 
 function Home() {
-  const {t} = useTranslation();
-  const [keyPair, setKeyPair] = useState({publicKey: '', privateKey: ''});
+  const { t } = useTranslation()
+  const [keyPair, setKeyPair] = useState({ publicKey: '', privateKey: '' })
 
-  useEffect(() => console.log({keyPair}), [keyPair]);
+  useEffect(() => console.log({ keyPair }), [keyPair])
 
   return (
     <View style={styles.container}>
@@ -21,8 +20,8 @@ function Home() {
             name: 'test',
             email: 'test@test.com',
             passphrase: 'test',
-          });
-          setKeyPair(output);
+          })
+          setKeyPair(output)
         }}
       />
       <View>
@@ -32,10 +31,10 @@ function Home() {
         <Text selectable>{keyPair.privateKey}</Text>
       </View>
     </View>
-  );
+  )
 }
 
-export default memo(Home);
+export default memo(Home)
 
 const styles = StyleSheet.create({
   container: {
@@ -49,4 +48,4 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
   },
-});
+})

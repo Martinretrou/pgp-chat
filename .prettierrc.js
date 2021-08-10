@@ -1,9 +1,12 @@
 module.exports = {
-  bracketSpacing: false,
-  jsxBracketSameLine: true,
-  singleQuote: true,
-  trailingComma: 'all',
   printWidth: 100,
-  tabWidth: 2,
-  useTabs: false,
+  singleQuote: true,
+  semi: false,
+  trailingComma: 'all',
+  importOrder: [
+    '(^@|^[A-Za-z])(?!internals)(.*(?<!tyles)$)',
+    '(^[.]|^@internals)(?!^[A-Za-z])(.*(?<!tyles)$)',
+    'tyles',
+  ],
+  importOrderSeparation: true,
 };

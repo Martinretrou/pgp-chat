@@ -28,10 +28,12 @@
     "@react-navigation/bottom-tabs": "^5.9.0",
     "@react-navigation/native": "^5.7.4",
     "i18next": "^19.8.2",
+    "lodash": "^4.17.21",
     "react": "16.13.1",
     "react-i18next": "^11.7.3",
     "react-native": "0.63.4",
     "react-native-bootsplash": "^2.2.7",
+    "react-native-device-info": "^8.1.7",
     "react-native-easy-icon": "^1.0.6",
     "react-native-fast-openpgp": "^1.6.5",
     "react-native-gesture-handler": "^1.8.0",
@@ -39,6 +41,7 @@
     "react-native-reanimated": "^1.13.1",
     "react-native-safe-area-context": "^3.1.8",
     "react-native-screens": "^2.11.0",
+    "react-native-text-input-mask": "^3.1.4",
     "react-native-vector-icons": "^7.1.0",
     "react-redux": "^7.2.1",
     "redux-persist": "^6.0.0",
@@ -50,6 +53,7 @@
     "@babel/runtime": "^7.11.2",
     "@react-native-community/eslint-config": "^2.0.0",
     "@testing-library/react-native": "^7.0.2",
+    "@trivago/prettier-plugin-sort-imports": "^2.0.2",
     "@types/react": "^16.9.49",
     "@types/react-native": "^0.63.22",
     "@types/react-native-vector-icons": "^6.4.6",
@@ -60,6 +64,7 @@
     "app-icon": "^0.13.2",
     "babel-plugin-module-resolver": "^4.0.0",
     "eslint": "^7.9.0",
+    "eslint-config-derniercri": "git+https://git@github.com/derniercri/eslint-config-derniercri.git",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.1.4",
@@ -77,9 +82,14 @@
     "prettier": "^2.1.2",
     "react-dom": "^16.13.1",
     "react-native-rename": "^2.4.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-svg-transformer": "^0.14.3",
     "react-test-renderer": "16.13.1",
     "redux-saga-test-plan": "^4.0.0-rc.3",
-    "typescript": "^4.0.3"
+    "typescript": "^4.3.5"
+  },
+  "resolutions": {
+    "@types/react": "^17"
   },
   "husky": {
     "hooks": {

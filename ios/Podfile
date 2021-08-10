@@ -11,6 +11,7 @@ target 'TypescriptReactNativeStarter' do
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
   pod 'react-native-fast-openpgp', :path => '../node_modules/react-native-fast-openpgp'
+  pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text', :modular_headers => true
 
   target 'TypescriptReactNativeStarterTests' do
     inherit! :complete
