@@ -3,8 +3,8 @@ import * as React from 'react';
 import {useTranslation} from 'react-i18next';
 import RNBootSplash from 'react-native-bootsplash';
 import Icon from 'react-native-easy-icon';
-import Home from 'src/containers/Home';
-import Settings from 'src/containers/Settings';
+import Home from 'src/screens/Home';
+import Settings from 'src/screens/Settings';
 import {sleep} from './utils/async';
 
 export type AppTabParamList = {

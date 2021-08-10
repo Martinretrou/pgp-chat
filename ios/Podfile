@@ -10,6 +10,8 @@ target 'TypescriptReactNativeStarter' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'react-native-fast-openpgp', :path => '../node_modules/react-native-fast-openpgp'
+
   target 'TypescriptReactNativeStarterTests' do
     inherit! :complete
     # Pods for testing
@@ -19,10 +21,10 @@ target 'TypescriptReactNativeStarter' do
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
   # you should disable these next few lines.
-  use_flipper!
-  post_install do |installer|
-    flipper_post_install(installer)
-  end
+  # use_flipper!
+  # post_install do |installer|
+  #   flipper_post_install(installer)
+  # end
 end
 
 target 'TypescriptReactNativeStarter-tvOS' do
