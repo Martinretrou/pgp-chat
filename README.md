@@ -50,8 +50,6 @@ trnc init <ProjectName>
 - **Navigation**
   - [React Navigation](https://github.com/react-navigation/react-navigation): easy-to-use navigation solution based on Javascript
 
-- **Unit testing**
-  - Unit tests with [Jest](https://github.com/facebook/jest), [react-native-testing-library](https://github.com/callstack/react-native-testing-library) and [redux-saga-test-plan](https://github.com/jfairbank/redux-saga-test-plan)
 - **Linting**
   - Eslint configured for React Native
   - VSCode Prettier compatible

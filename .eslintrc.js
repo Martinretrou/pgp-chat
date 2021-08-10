@@ -2,14 +2,12 @@ module.exports = {
   root: true,
   env: {
     es6: true,
-    jest: true,
     'react-native/react-native': true,
   },
   parser: '@typescript-eslint/parser',
   plugins: [
     'react-hooks',
     'testing-library',
-    'jest',
     'react',
     'react-native',
     'import',
@@ -39,8 +37,6 @@ module.exports = {
     'react-native/no-color-literals': 'warn',
     'react-native/no-raw-text': 'error',
     'react-native/no-single-element-style-arrays': 'warn',
-    'jest/no-focused-tests': 'error',
-    'jest/no-disabled-tests': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'off',
   },
