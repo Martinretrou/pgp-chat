@@ -41,6 +41,12 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>TiemposText-Regular.otf</string>
+		<string>TiemposHeadline-Regular.otf</string>
+		<string>LFTEticaSB.otf</string>
+		<string>LFTEticaBk.otf</string>
+		<string>LFTEtica.otf</string>
+		<string>LFTEtica-Bold.otf</string>
 		<string>AntDesign.ttf</string>
 		<string>Entypo.ttf</string>
 		<string>EvilIcons.ttf</string>

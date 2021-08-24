@@ -1,23 +1,33 @@
-import { NavigationAction, NavigationContainerRef } from '@react-navigation/native'
+import { NavigationContainerRef } from '@react-navigation/native'
 import * as React from 'react'
 
-export const navigationRef: React.RefObject<NavigationContainerRef> = React.createRef()
+export const navigationRef = React.createRef<NavigationContainerRef>()
 
-export default class NavigationService {
-  public static isReady: boolean
+export const isReadyRef = React.createRef()
 
-  public static navigate(name: string, params?: Record<string, unknown>) {
-    if (this.isReady && navigationRef.current) {
-      navigationRef.current.navigate(name, params)
-    } else {
-      // You can decide what to do if the app hasn't mounted
-      // You can ignore this, or add these actions to a queue you can call later
-    }
-  }
+function navigate(name: string, params?: any) {
+  const nav: any = navigationRef?.current
+  nav?.navigate(name, params)
+}
 
-  public static dispatch(action: NavigationAction) {
-    if (this.isReady && navigationRef.current) navigationRef.current.dispatch(action)
-  }
+function goBack() {
+  const nav: any = navigationRef?.current
+  nav?.goBack()
+}
 
-  // add other navigation functions that you need and export them
+function push(name: string, params?: any) {
+  const nav: any = navigationRef?.current
+  nav?.push(name, params)
+}
+
+function reset(option: any) {
+  const nav: any = navigationRef?.current
+  nav?.reset(option)
+}
+
+export default {
+  navigate,
+  goBack,
+  reset,
+  push,
 }

@@ -1,8 +1,14 @@
-import * as React from 'react'
-import RNBootSplash from 'react-native-bootsplash'
-
+import './i18n'
 import MainNavigator from './navigators/MainNavigator'
-import { sleep } from './utils/async'
+import store from './store'
+import { NavigationContainer } from '@react-navigation/native'
+import { getPersistor } from '@rematch/persist'
+import React, { useEffect } from 'react'
+import RNBootSplash from 'react-native-bootsplash'
+import { Provider } from 'react-redux'
+import { PersistGate } from 'redux-persist/lib/integration/react'
+
+const persistor = getPersistor()
 
 export type AppTabParamList = {
   Home: undefined
@@ -10,18 +16,19 @@ export type AppTabParamList = {
 }
 
 const App = () => {
-  const init = async () => {
-    await sleep(1000)
-    // …do multiple async tasks
-  }
-
-  React.useEffect(() => {
-    init().finally(() => {
-      RNBootSplash.hide({ duration: 250 }) // fade animation
-    })
+  useEffect(() => {
+    RNBootSplash.hide({ duration: 250 }) // fade animation
   }, [])
 
-  return <MainNavigator />
+  return (
+    <Provider store={store}>
+      <NavigationContainer>
+        <PersistGate loading={null} persistor={persistor}>
+          <MainNavigator />
+        </PersistGate>
+      </NavigationContainer>
+    </Provider>
+  )
 }
 
 export default App

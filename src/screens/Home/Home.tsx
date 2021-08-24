@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Button, StyleSheet, Text, View } from 'react-native'
 import OpenPGP from 'react-native-fast-openpgp'
@@ -34,7 +34,7 @@ function Home() {
   )
 }
 
-export default memo(Home)
+export default Home
 
 const styles = StyleSheet.create({
   container: {

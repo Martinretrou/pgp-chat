@@ -2,6 +2,7 @@ import { normalize } from 'src/helpers/device'
 
 export const colors = {
   background: '#F7F7F8',
+  primary: '#6333FF',
   black: '#0D0C18',
   dark: '#0D0C18',
   green: '#2AA773',

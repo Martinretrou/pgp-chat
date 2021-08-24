@@ -1,10 +1,9 @@
 /**
  * @format
  */
+import { name as appName } from './app.json'
+import App from './src/App'
 import { AppRegistry } from 'react-native'
 import 'react-native-gesture-handler'
 
-import { name as appName } from './app.json'
-import Root from './src'
-
-AppRegistry.registerComponent(appName, () => Root)
+AppRegistry.registerComponent(appName, () => App)

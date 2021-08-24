@@ -1,13 +1,11 @@
+import Box from '../Box'
+import Text from '../Text'
+import composeStyles from './styles'
 import React, { useState } from 'react'
 import { TextInputProps, TouchableOpacity, View, ViewStyle } from 'react-native'
 import TextInputMask from 'react-native-text-input-mask'
 import HideIcon from 'src/assets/images/hide.svg'
 import ShowIcon from 'src/assets/images/show.svg'
-
-import Box from '../Box'
-import Text from '../Text'
-
-import composeStyles from './styles'
 
 export interface Props extends TextInputProps {
   disabled?: boolean

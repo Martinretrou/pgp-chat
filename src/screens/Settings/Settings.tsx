@@ -15,7 +15,7 @@ function Settings() {
   )
 }
 
-export default memo(Settings)
+export default Settings
 
 const styles = StyleSheet.create({
   container: {

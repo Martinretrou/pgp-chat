@@ -17,7 +17,15 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* TypescriptReactNativeStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TypescriptReactNativeStarterTests.m */; };
-		5B2EB60826C2A51A00C35A16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B2EB60726C2A51A00C35A16 /* GoogleService-Info.plist */; };
+		5B17B78A26D3D88D00CD93C1 /* TiemposText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B17B78226D3D88D00CD93C1 /* TiemposText-Regular.otf */; };
+		5B17B78B26D3D88D00CD93C1 /* LFTEtica.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B17B78326D3D88D00CD93C1 /* LFTEtica.otf */; };
+		5B17B78C26D3D88D00CD93C1 /* LFTEtica-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B17B78426D3D88D00CD93C1 /* LFTEtica-Bold.otf */; };
+		5B17B78D26D3D88D00CD93C1 /* LFTEticaBk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B17B78526D3D88D00CD93C1 /* LFTEticaBk.otf */; };
+		5B17B78E26D3D88D00CD93C1 /* LFTEticaSB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B17B78626D3D88D00CD93C1 /* LFTEticaSB.otf */; };
+		5B17B78F26D3D88D00CD93C1 /* TiemposHeadline-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B17B78726D3D88D00CD93C1 /* TiemposHeadline-Regular.otf */; };
+		5B17B79026D3D88D00CD93C1 /* LFTEtica-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B17B78826D3D88D00CD93C1 /* LFTEtica-Light.otf */; };
+		5B17B79126D3D88D00CD93C1 /* LFTEtica-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B17B78926D3D88D00CD93C1 /* LFTEtica-LightItalic.otf */; };
+		5B5C950926D148C70088F97C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C950826D148C70088F97C /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		D278161C8AA2527CC7998846 /* libPods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC80B7B5A5F9C9CB59438FC4 /* libPods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests.a */; };
 		E20124FF10CF8BC92DCC7905 /* libPods-TypescriptReactNativeStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9CD9D7B78102EA24A4D6CB /* libPods-TypescriptReactNativeStarter.a */; };
@@ -67,7 +75,15 @@
 		423FA4BF11897482D94777D2 /* Pods-TypescriptReactNativeStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypescriptReactNativeStarter.release.xcconfig"; path = "Target Support Files/Pods-TypescriptReactNativeStarter/Pods-TypescriptReactNativeStarter.release.xcconfig"; sourceTree = "<group>"; };
 		51FEFD7C623B459B85CFF8ED /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		5987C19DF661C73C4E510C5E /* Pods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests.release.xcconfig"; path = "Target Support Files/Pods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests/Pods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests.release.xcconfig"; sourceTree = "<group>"; };
-		5B2EB60726C2A51A00C35A16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B17B78226D3D88D00CD93C1 /* TiemposText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposText-Regular.otf"; sourceTree = "<group>"; };
+		5B17B78326D3D88D00CD93C1 /* LFTEtica.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LFTEtica.otf; sourceTree = "<group>"; };
+		5B17B78426D3D88D00CD93C1 /* LFTEtica-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LFTEtica-Bold.otf"; sourceTree = "<group>"; };
+		5B17B78526D3D88D00CD93C1 /* LFTEticaBk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LFTEticaBk.otf; sourceTree = "<group>"; };
+		5B17B78626D3D88D00CD93C1 /* LFTEticaSB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LFTEticaSB.otf; sourceTree = "<group>"; };
+		5B17B78726D3D88D00CD93C1 /* TiemposHeadline-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Regular.otf"; sourceTree = "<group>"; };
+		5B17B78826D3D88D00CD93C1 /* LFTEtica-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LFTEtica-Light.otf"; sourceTree = "<group>"; };
+		5B17B78926D3D88D00CD93C1 /* LFTEtica-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LFTEtica-LightItalic.otf"; sourceTree = "<group>"; };
+		5B5C950826D148C70088F97C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6D8706645DFB06A6045433B8 /* Pods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests.debug.xcconfig"; path = "Target Support Files/Pods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests/Pods-TypescriptReactNativeStarter-TypescriptReactNativeStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		757119ED7D8F498594D79254 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TypescriptReactNativeStarter/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -168,6 +184,7 @@
 				01D4E4DD253CF5F100AA47AD /* BootSplash.storyboard */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				5B17B78126D3D87500CD93C1 /* Resources */,
 			);
 			name = TypescriptReactNativeStarter;
 			sourceTree = "<group>";
@@ -183,6 +200,21 @@
 				DDF67D445400C1D481C45053 /* libPods-TypescriptReactNativeStarter-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B17B78126D3D87500CD93C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B17B78426D3D88D00CD93C1 /* LFTEtica-Bold.otf */,
+				5B17B78826D3D88D00CD93C1 /* LFTEtica-Light.otf */,
+				5B17B78926D3D88D00CD93C1 /* LFTEtica-LightItalic.otf */,
+				5B17B78326D3D88D00CD93C1 /* LFTEtica.otf */,
+				5B17B78526D3D88D00CD93C1 /* LFTEticaBk.otf */,
+				5B17B78626D3D88D00CD93C1 /* LFTEticaSB.otf */,
+				5B17B78726D3D88D00CD93C1 /* TiemposHeadline-Regular.otf */,
+				5B17B78226D3D88D00CD93C1 /* TiemposText-Regular.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		71DBEA3096404853AD1CFB35 /* Resources */ = {
@@ -218,7 +250,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				5B2EB60726C2A51A00C35A16 /* GoogleService-Info.plist */,
+				5B5C950826D148C70088F97C /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* TypescriptReactNativeStarter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* TypescriptReactNativeStarterTests */,
@@ -387,9 +419,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B17B78E26D3D88D00CD93C1 /* LFTEticaSB.otf in Resources */,
 				01D4E4DE253CF5F100AA47AD /* BootSplash.storyboard in Resources */,
-				5B2EB60826C2A51A00C35A16 /* GoogleService-Info.plist in Resources */,
+				5B17B78C26D3D88D00CD93C1 /* LFTEtica-Bold.otf in Resources */,
+				5B17B78B26D3D88D00CD93C1 /* LFTEtica.otf in Resources */,
+				5B5C950926D148C70088F97C /* GoogleService-Info.plist in Resources */,
+				5B17B78A26D3D88D00CD93C1 /* TiemposText-Regular.otf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				5B17B79026D3D88D00CD93C1 /* LFTEtica-Light.otf in Resources */,
+				5B17B78D26D3D88D00CD93C1 /* LFTEticaBk.otf in Resources */,
+				5B17B78F26D3D88D00CD93C1 /* TiemposHeadline-Regular.otf in Resources */,
+				5B17B79126D3D88D00CD93C1 /* LFTEtica-LightItalic.otf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

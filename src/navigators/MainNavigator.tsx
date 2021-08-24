@@ -1,52 +1,26 @@
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import AuthNavigator from './AuthNavigator'
+import TabsNavigator from './TabsNavigator'
+import { createStackNavigator } from '@react-navigation/stack'
 import React from 'react'
-import { useTranslation } from 'react-i18next'
-import Icon from 'react-native-easy-icon'
-import { Home, Settings } from 'src/screens'
 
-export type MainNavigationParamList = {
-  Home: undefined
-  Settings: undefined
+export type MainNavigatorParamList = {
+  Tabs: undefined
+  Auth: undefined
 }
 
-const Tab = createBottomTabNavigator()
+const Stack = createStackNavigator<MainNavigatorParamList>()
 
 const MainNavigator = () => {
-  const { t } = useTranslation()
+  const isLoggedIn = false
 
   return (
-    <Tab.Navigator initialRouteName="home">
-      <Tab.Screen
-        name="home"
-        component={Home}
-        options={{
-          tabBarLabel: t('home'),
-          tabBarIcon: ({ focused, color, size }) => (
-            <Icon
-              name={focused ? 'home' : 'home-outline'}
-              type="material-community"
-              size={size}
-              color={color}
-            />
-          ),
-        }}
-      />
-      <Tab.Screen
-        name="settings"
-        component={Settings}
-        options={{
-          tabBarLabel: t('settings'),
-          tabBarIcon: ({ focused, color, size }) => (
-            <Icon
-              name={focused ? 'cog' : 'cog-outline'}
-              type="material-community"
-              size={size}
-              color={color}
-            />
-          ),
-        }}
-      />
-    </Tab.Navigator>
+    <Stack.Navigator
+      initialRouteName={isLoggedIn ? 'Tabs' : 'Auth'}
+      screenOptions={{ headerShown: false }}
+    >
+      <Stack.Screen name="Tabs" component={TabsNavigator} options={{ headerShown: false }} />
+      <Stack.Screen name="Auth" component={AuthNavigator} options={{ headerShown: false }} />
+    </Stack.Navigator>
   )
 }
 

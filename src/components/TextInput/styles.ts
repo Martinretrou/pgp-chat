@@ -1,7 +1,6 @@
+import { colors, fonts } from '../../theme'
 import { StyleSheet } from 'react-native'
 import { normalize } from 'src/helpers'
-
-import { colors, fonts } from '../../theme'
 
 export interface Props {
   disabled: boolean
@@ -25,6 +24,7 @@ export default ({ disabled, isFocus, hasValue, hasPlaceholder, hasSecureSwitch }
       backgroundColor: 'transparent',
       borderColor: colors.greyIcons,
       borderWidth: 1,
+      borderRadius: 5,
       fontFamily: fonts.default,
       fontSize: normalize(15),
     },

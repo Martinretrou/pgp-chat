@@ -5,6 +5,15 @@ import { initReactI18next } from 'react-i18next'
 const resources = {
   en: {
     translation: {
+      preLogin: {
+        title: 'PGPChat',
+      },
+      login: {
+        title: 'Login',
+      },
+      signUp: {
+        title: 'Sign up',
+      },
       english: 'English',
       french: 'Français',
       welcome: 'Welcome to Typescript React Native Starter!',
@@ -19,6 +28,15 @@ const resources = {
   },
   fr: {
     translation: {
+      preLogin: {
+        title: 'PGPChat',
+      },
+      login: {
+        title: 'Login',
+      },
+      signUp: {
+        title: 'Sign up',
+      },
       welcome: 'Bienvenue à Typescript React Native Starter !',
       instructions: 'Pour commencer, éditez Home.tsx',
       iosInstruction: 'Appuyez sur Cmd+R pour recharger,\n' + 'Cmd+D ou secouez pour le menu dev',
